@@ -53,7 +53,7 @@ if (argv.version || argv.v) {
     const excludePaths = makeRegExp(
       argv.exclude,
       "exclude",
-      /^package\.json$/,
+      /^package\.json$|android\/build\/.*/,
       argv["case-sensitive-path-filtering"],
     )
     const packageManager = detectPackageManager(
