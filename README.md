@@ -1,3 +1,9 @@
+学习[patch-package](https://www.npmjs.com/package/patch-package)
+- 默认排除android/build
+- 针对windows系统，文件路径分隔符替换为“/”后再filterFiles
+---
+###
+
 <p align="center">
   <img src="https://ds300.github.io/patch-package/patch-package.svg" width="80%" alt="patch-package" />
 </p>
